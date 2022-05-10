@@ -5,7 +5,7 @@ var load = document.querySelector('#load');
 var h1 = document.querySelector('#h1');
 ///
 function psc(){
-  var googleURL = `https:www.google.com/search?q=${input1.value}`;
+  var googleURL = `http:www.google.com/search?q=${input1.value}`;
   load.classList.add('animarLoad');
   load.style.display = 'block';
   ///
